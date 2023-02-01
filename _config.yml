@@ -1,6 +1,6 @@
-baseurl: 'https://www.bigmints.com/'
+baseurl: 'https://www.bappnow.com/'
 permalink: pretty
-title: 'Bigmints'
+title: 'Bapp'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
