@@ -8,6 +8,10 @@
 .strip-grey {
   background-color: $white-offset;
 }
+.strip-dark {
+  background-color: $primary;
+  color: $white;
+}
 .strip-diagonal {
   transform: skewY(5deg);
   padding-bottom: 50px;

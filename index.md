@@ -8,6 +8,6 @@ intro_image_hide_on_mobile: true
 show_call_box: true
 ---
 
-# Reshaping Your Business to Meet the Digital Age
+# Bapp helps businesses to get bookings online.
 
-We help small businesses to adopt digital technology to increase profitability and effeciency. 
+
