@@ -42,14 +42,14 @@ bodyClass: "page-home"
 {% endif %}
 
 {% if site.data.privacy %}
-<div class="strip strip-dark">
+<div class="strip strip-primary-gradient">
   <div class="container pt-6 pb-0 pb-md-0 ">
     <div class="row">
       <div class="col-12 col-md-2">
         <div style="margin: 0px 20px 40px 20px "><img src="{{ site.data.privacy.image.url }}" class="img-fluid" /></div>
       </div>
       <div class="col-12 col-md-10 mb-3">
-        <h1 >{{ site.data.privacy.title }}</h1>
+        <h1 class="text-white">{{ site.data.privacy.title }}</h1>
         <p class="text-white">{{ site.data.privacy.description }}</p>
       </div>
     </div>
@@ -84,3 +84,50 @@ bodyClass: "page-home"
   </div>
 </div>
 
+
+<div class="strip">
+  <div class="strip-grey">
+    <div class="container pt-6 pb-0 pb-md-1">
+      <h1>{{ site.data.target.title }}</h1>
+      <h3>{{ site.data.target.description }}</h3>
+    </div>
+    <div class="container pt-2 pb-6 pb-md-5">
+      <div class="row justify-content-start">
+        {% for why in site.data.target.content %}
+        <div class="col-12 col-md-4 mb-1">
+          <div class="card text-white bg-dark mb-2">
+            <div class="card-header">
+              <h3><img src="{{ why.image.url }}" height="48" /> {{ why.title }}</h3>
+            </div>
+            <div class="card-body">
+              
+              <p class="text-white">
+                {{ why.description }}
+              </p>
+            </div>
+          </div>
+          
+        </div>
+        {% endfor %}
+      </div>
+     
+    </div>
+  </div>
+</div>
+
+{% if site.data.enterprise %}
+<div class="stripe strip-primary-gradient">
+  <div class="container pt-6 pb-0 pb-md-0 ">
+    <div class="row">
+      <div class="col-12 col-md-2">
+        <div style="margin: 0px 20px 40px 20px "><img src="{{ site.data.enterprise.image.url }}" class="img-fluid" /></div>
+      </div>
+      <div class="col-12 col-md-10 mb-3">
+        <h1 class="text-white" >{{ site.data.enterprise.title }}</h1>
+        <p class="text-white">{{ site.data.enterprise.description }}</p>
+        <a class="btn btn-lg btn-primary" href="">Get in touch</a>
+      </div>
+    </div>
+  </div>
+</div>
+{% endif %}

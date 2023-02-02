@@ -4,8 +4,8 @@ title: 'Bapp'
 
 logo:
   mobile: "images/logo/logo-mobile.svg"
-  mobile_height: "32px"
-  mobile_width: "32px"
+  mobile_height: ""
+  mobile_width: "100px"
   desktop: "images/logo/logo.svg"
   desktop_height: ""
   desktop_width: "100px"
@@ -17,7 +17,7 @@ collections:
   industries:
     output: true
     sort_by: weight
-    
+
 defaults:
   - scope:
       path: ""
@@ -30,6 +30,8 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+
+site-url: "https://www.bappnow.com/"
 
 exclude:
   - Gemfile
