@@ -71,9 +71,6 @@ bodyClass: "page-home"
             <h2 class="card-title">
               {{ why.title }}
             </h2>
-            <p >
-              {{ why.description }}
-            </p>
           </div>
         </div>
         
@@ -122,10 +119,11 @@ bodyClass: "page-home"
       <div class="col-12 col-md-2">
         <div style="margin: 0px 20px 40px 20px "><img src="{{ site.data.enterprise.image.url }}" class="img-fluid" /></div>
       </div>
+     
       <div class="col-12 col-md-10 mb-5">
-        <h1 class="text-white" >{{ site.data.enterprise.title }}</h1>
+        <h1 class="text-white" >{{ site.data.enterprise.title }}  <i data-feather="chevron-right"></i></h1>
         <p class="text-white">{{ site.data.enterprise.description }}</p>
-        <a class="btn btn-lg btn-primary" href="/contact">Get in touch</a>
+        <a class="btn btn-lg btn-light" href="/contact">Get in touch </a>
       </div>
     </div>
   </div>

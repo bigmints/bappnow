@@ -1,11 +1,7 @@
 main:
-  - name: "About"
+  - name: "About Us"
     url: "/about/"
     weight: 2
-    target: ""
-  - name: "Contact"
-    url: "/contact/"
-    weight: 3
     target: ""
   - name: "Demo"
     url: "https://demo.bappnow.com"
