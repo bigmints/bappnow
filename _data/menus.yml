@@ -2,9 +2,15 @@ main:
   - name: "About"
     url: "/about/"
     weight: 2
+    target: ""
   - name: "Contact"
     url: "/contact/"
     weight: 3
+    target: ""
+  - name: "Demo"
+    url: "https://demo.bappnow.com"
+    weight: 3
+    target: "_blank"
 
 footer:
   - name: "Home"

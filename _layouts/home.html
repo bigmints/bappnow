@@ -3,7 +3,7 @@ layout: default
 bodyClass: "page-home"
 ---
 
-<div class="intro" style="background: url('{{ page.intro_image | relURL }}')">
+<div class="intro intro-home" style="background: url('{{ page.intro_image | relURL }}')">
   <div class="container">
     <div class="row justify-content-start">
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
@@ -28,7 +28,7 @@ bodyClass: "page-home"
       {% for how in site.data.hows %}
       <div class="col-12 col-md-4 col-lg-4 mb-2">
         <div class="card mb-3">
-          <div style="padding: 40px"><img src="{{ how.image.url }}" class="img-fluid" /></div>
+          <div style="padding: 60px"><img src="{{ how.image.url }}" class="img-fluid" /></div>
           <div class="card-body">
             <h5 class="card-title">{{ how.title }}</h5>
             <p class="card-text">{{ how.description }}</p>
@@ -122,10 +122,10 @@ bodyClass: "page-home"
       <div class="col-12 col-md-2">
         <div style="margin: 0px 20px 40px 20px "><img src="{{ site.data.enterprise.image.url }}" class="img-fluid" /></div>
       </div>
-      <div class="col-12 col-md-10 mb-3">
+      <div class="col-12 col-md-10 mb-5">
         <h1 class="text-white" >{{ site.data.enterprise.title }}</h1>
         <p class="text-white">{{ site.data.enterprise.description }}</p>
-        <a class="btn btn-lg btn-primary" href="">Get in touch</a>
+        <a class="btn btn-lg btn-primary" href="/contact">Get in touch</a>
       </div>
     </div>
   </div>
