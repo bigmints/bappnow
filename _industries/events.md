@@ -3,7 +3,7 @@ title: "Events & Venues"
 date: 2018-11-19T10:47:58+10:00
 weight: 1
 description: "Beauty Parlors, Nail Salons, Hair Salons, Spas etc"
-items: ["Conference Rooms","Party Venues","Playgrounds & courts","Lands & Plots"]
+items: ["Conference Rooms","Party Venues","Playgrounds & Courts","Lands & Plots"]
 image:
      url: "images/icon-rental.png"
 ---

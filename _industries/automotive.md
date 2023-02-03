@@ -3,7 +3,7 @@ title: "Automotive Servicing"
 date: 2022-11-19T10:47:58+10:00
 weight: 1
 description: "Carwash, auto repair, car detailing, auto consultants etc"
-items: ["Car Service Centers","Car wash services"," Car Detailing Services"," Automotive Consultants"]
+items: ["Car Service Centers","Car Wash Services"," Car Detailing Services"," Automotive Consultants"]
 image:
      url: "images/icon-automotive.png"
 ---
