@@ -94,17 +94,16 @@ bodyClass: "page-home"
     </div>
     <div class="container pt-2 pb-6 pb-md-5">
       <div class="row justify-content-start">
-        {% for why in site.data.target.content %}
+        {% for why in site.industries %}
         <div class="col-12 col-md-4 mb-1">
-          <div class="card text-white bg-dark mb-2">
-            <div class="card-header">
-              <h3><img src="{{ why.image.url }}" height="48" /> {{ why.title }}</h3>
-            </div>
+          <div class="card mb-2">
             <div class="card-body">
-              
-              <p class="text-white">
-                {{ why.description }}
-              </p>
+              <h3><a href="{{ why.url | absolute_url}}">{{ why.title }}</a> </h3>
+              <ul class="industry-items">
+              {% for item in why.items %}
+                <li class="">{{ item }}</li>
+              {% endfor %}
+            </ul>
             </div>
           </div>
           
@@ -118,13 +117,13 @@ bodyClass: "page-home"
 
 {% if site.data.enterprise %}
 <div class="stripe strip-primary-gradient">
-  <div class="container pt-6 pb-0 pb-md-0 ">
+  <div class="container pt-6 pb-4 pb-md-6 ">
     <div class="row">
       <div class="col-12 col-md-2">
-        <div style="margin: 0px 20px 40px 20px "><img src="{{ site.data.enterprise.image.url }}" class="img-fluid text-center" width="160px" /></div>
+        <div style="margin: 0px  "><img src="{{ site.data.enterprise.image.url }}" class="img-fluid text-center" width="160px" /></div>
       </div>
      
-      <div class="col-12 col-md-10 mb-5">
+      <div class="col-12 col-md-10">
         <h1 class="text-white" >{{ site.data.enterprise.title }}  <i data-feather="chevron-right"></i></h1>
         <p class="text-white">{{ site.data.enterprise.description }}</p>
         <a class="btn btn-lg btn-light" href="/contact">Get in touch <img src="/assets/feather-icons/arrow-right.svg" class="feather" /></a>

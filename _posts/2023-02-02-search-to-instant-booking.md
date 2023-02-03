@@ -1,5 +1,5 @@
 ---
-title: "Getting Started"
+title: "Convert paid search to bookings."
 author: pretheesh
 date: 2021-10-09 20:55:00 +0800
 categories: [Ideas]

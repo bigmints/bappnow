@@ -1,7 +1,11 @@
 ---
-title: "Wellness"
+title: "Wellness Services"
 date: 2018-11-19T10:47:58+10:00
 weight: 1
+description: "Beauty Parlors, Nail Salons, Hair Salons, Spas etc"
+items: ["Spas & Salons","Massage & Therapies","Dental & Clinins","Alternative Medicine"]
+image:
+     url: "images/icon-wellness.png"
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.

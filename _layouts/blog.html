@@ -4,23 +4,18 @@ bodyClass: "page-blog"
 ---
 <div class="intro">
   <div class="container">
-   
         {{ content }}
-      
-      
-   
   </div>
 </div>
-
 <div class="container">
-  <div class="row col-12 ">
+  <div class="row">
   {% for post in site.posts %}
   <div class="col-12 col-md-4">
     <div class="card mb-3">
-      <img src="{{post.cover}}" class="card-img-top"/>
+     
       <div class="card-body">
         <div class="card-title">
-          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+          <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a> <img src="/assets/feather-icons/arrow-right.svg" /></h3>
         </div>
 
       </div>
