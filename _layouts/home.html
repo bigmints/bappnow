@@ -9,7 +9,7 @@ bodyClass: "page-home"
       <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
         {{ content }}
         {% if page.show_call_box %}
-          {% include call.html show_button=true %}
+          {% include call-home.html show_button=true %}
         {% endif %}
       </div>
       <!-- {% if page.intro_image %}
@@ -17,7 +17,6 @@ bodyClass: "page-home"
         <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relURL }}" />
       </div>
       {% endif %} -->
-      
     </div>
   </div>
 </div>
@@ -122,7 +121,7 @@ bodyClass: "page-home"
   <div class="container pt-6 pb-0 pb-md-0 ">
     <div class="row">
       <div class="col-12 col-md-2">
-        <div style="margin: 0px 20px 40px 20px "><img src="{{ site.data.enterprise.image.url }}" class="img-fluid" /></div>
+        <div style="margin: 0px 20px 40px 20px "><img src="{{ site.data.enterprise.image.url }}" class="img-fluid text-center" width="160px" /></div>
       </div>
      
       <div class="col-12 col-md-10 mb-5">

@@ -1,23 +1,23 @@
+- title: "Customer Centricity"
+  description: "Customer success is at the heart of everything we do. Bapp puts the needs and satisfaction of its customers at the forefront of all decision-making and actions."
+  image:
+    url: "images/features/noun_The Process_1885341.svg"
+    width: 80
+    height: 80
+- title: "Collaboration"
+  description: "Bapp values teamwork and collaboration with its partners, customers, and employees, recognizing that success is best achieved through working together."
+  image:
+    url: "images/features/noun_The Process_1885341.svg"
+    width: 80
+    height: 80
 - title: "Transparency and Trust"
-  description: "Data is at the core of our identity as a product company and is an essential part of our platform. Access to information allows teams to work even better together and perform at their professional best. That kind of total freedom builds trust and leads to fast execution and high impact."
+  description: "Bapp is committed to being transparent in its dealings with customers and partners and building long-lasting relationships based on mutual trust and respect."
   image:
     url: "images/features/noun_The Process_1885341.svg"
     width: 80
     height: 80
-- title: "Customer-Centricity"
-  description: "Customer satisfaction and success are at the heart of everything we do. We are passionately committed to helping customers with our best-in-class support. When our customers win, we win."
-  image:
-    url: "images/features/noun_The Process_1885341.svg"
-    width: 80
-    height: 80
-- title: "Experience-first"
-  description: "We mean it when we say that a product should work for the customer and not the other way around. So every feature is designed with ease of use to deliver the best user experience, and more than 90% of our customers work in traditionally non-tech industries."
-  image:
-    url: "images/features/noun_The Process_1885341.svg"
-    width: 80
-    height: 80
-- title: "Speed and Execution"
-  description: "The faster you execute, the quicker you learn, iterate, and improve. We are constantly running at our own pace and seeking customer feedback to outdo our best. This eagerness to try and enhance gives us a competitive edge, especially as we continue to scale."
+- title: "Reliability"
+  description: "Bapp is dedicated to providing a seamless and trustworthy booking management experience, consistently delivering on its promises and guarantees."
   image:
     url: "images/features/noun_The Process_1885341.svg"
     width: 80
