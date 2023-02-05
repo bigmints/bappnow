@@ -1,0 +1,22 @@
+---
+label: Page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: text
+  name: layout
+  label: layout
+- type: text
+  name: description
+  label: description
+- type: text
+  name: bodyClass
+  label: bodyClass
+- type: boolean
+  name: show_call_box
+  label: show_call_box
+- type: boolean
+  name: show_call_box_title
+  label: show_call_box_title
