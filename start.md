@@ -1,6 +1,6 @@
 ---
 title: Get started for free
-layout: page
+layout: start
 description: Start using bapp for free.
 bodyClass: page-start
 show_call_box: true
