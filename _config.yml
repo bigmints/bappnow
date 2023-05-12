@@ -35,7 +35,6 @@ sass:
 
 plugins:
   - jekyll-environment-variables
-  - jekyll-seo-tag
 
 site-url: "https://www.bappnow.com/"
 
