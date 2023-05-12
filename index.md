@@ -1,7 +1,7 @@
 ---
-title: Digital Transformation for small and medium enterprises.
+title: Bapp - Get a booking solution for your service business..
 layout: home
-description: At Bigmints we help small businesses to adopt digital technology to increase profitability and effeciency. 
+description: At Bapp we help small businesses to adopt digital technology to increase profitability and efficiency.
 background:  "https://images.unsplash.com/photo-1519452575417-564c1401ecc0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2370&q=80"
 intro_image: "images/mockup.png"
 intro_image_absolute: true
