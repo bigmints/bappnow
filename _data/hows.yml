@@ -1,12 +1,12 @@
 - title: "Build your catalogue"
   description: "List your services catalogue and working hours on Bapp"
   image:
-    url: "images/icon-target.svg"
+    url: "images/svgs/catalogue.svg"
 - title: "Integrate your CTAs"
   description: "Integrate your booking url with your digital channels and ads"
   image:
-    url: "images/icon-rocket.svg"
+    url: "images/svgs/links.svg"
 - title: "Get bookings"
   description: "View, accept and manage bookings on Bapp Partner website and app"
   image:
-    url: "images/icon-cogs.svg"
+    url: "images/svgs/calendar.svg"
