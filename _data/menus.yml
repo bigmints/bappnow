@@ -20,6 +20,7 @@ footer:
     url: "/about/"
     weight: 2
     target: ""
+  
   - name: "Blog"
     url: "/blog/"
     weight: 3
