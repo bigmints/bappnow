@@ -1,40 +1,22 @@
 {
   "topics":[
     {
-      "link editing":{
-        "title": "title text",
-        "description": "description",
-        "media":{
-          "image":{
-            "name": "image name",
-            "URL": "url"
-          }
-        }
-      }
-    },
-    {
-      "link editing":{
-        "title": "title text",
-        "description": "description",
-        "media":{
-          "image":{
-            "name": "image name",
-            "URL": "url"
-          }
-        }
-      }
-    },
-    {
-      "link editing":{
-        "title": "title text",
-        "description": "description",
-        "media":{
-          "image":{
-            "name": "image name",
-            "URL": "url"
-          }
+      "topic": "link editing",
+      "content": {
+      "title": "title text",
+      "description": "description",
+      "media":{
+        "image":{
+          "name": "image name",
+          "URL": "url"
+        },
+        "video":{
+          "name": "image name",
+          "URL": "url"
         }
       }
     }
+    }
+    
   ]
 }
