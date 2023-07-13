@@ -1,7 +1,7 @@
 {
   "topics":[
     {
-      "topic": "link-editing",
+      "topic": "link-manager",
       "title": "Building your link page",
       "description": "description",
       "content":[
@@ -57,7 +57,37 @@
         }
       }
     
-    }
+    },
+    {
+      "topic": "link-editing",
+      "title": "editing your links",
+      "description": "description",
+      "content":[
+        {
+        "title":"title",
+        "description":"description"
+        },
+        {
+        "title":"title",
+        "description":"description"
+        },{
+        "title":"title",
+        "description":"description"
+        }
+      ],
+      "media":{
+        "image":{
+          "name": "image name",
+          "URL": "url"
+        },
+        "video":{
+          "name": "image name",
+          "URL": "url"
+        }
+      }
+    
+    },
+
     
   ]
 }
