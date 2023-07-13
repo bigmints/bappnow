@@ -1,6 +1,6 @@
 main:
-  - name: "About Us"
-    url: "/about/"
+  - name: "Bapp Links"
+    url: "/bapp-links/"
     weight: 2
     target: ""
   - name: "Demo"
@@ -29,7 +29,3 @@ footer:
     url: "/contact/"
     weight: 4
     target: ""
-  - name: "Partners"
-    url: "https://partners.bappnow.com"
-    weight: 5
-    target: "_blank"
