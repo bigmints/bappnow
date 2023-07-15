@@ -31,20 +31,30 @@
       },
       {
         "topic": "catalogue-manager",
-        "title": "Building a service catalogue",
-        "description": "description",
+        "title": "How to build a  link page?",
+        "description": "Linking a build page is easy. To start, click the + button at the bottom of the page and select a link you want to add to your link page. ",
         "content":[
           {
-          "title":"title",
-          "description":"description"
+          "title":"How many links can I add to my link page?",
+          "description":"You can add as many links as you want to your link page. However, a link page aims to showcase the most important links about your business. Less than eight links are ideal."
           },
           {
-          "title":"title",
-          "description":"description"
+          "title":"Can I reorder my links?",
+          "description":"Yes. Tap, Hold and move the links to reorder your links. Publishing the links will save the new order."
           },{
-          "title":"title",
-          "description":"description"
-          }
+          "title":"Can I add my company logo to my link page? ",
+          "description":"Uploading a logo is not possible as of now via the mobile app. This feature will be available in our upcoming updates. However, if you think the logo is crucial, message us via any of our support channels, and we will upload it for you."
+          },{
+            "title":"Can I change the colours of my link page?",
+            "description":"Changing brand colours is not available currently. We are working on this feature, and it will be available soon."
+            },{
+              "title":"Can I select a different icon for my link? ",
+              "description":"No. The icons are standard across all our link pages to maintain consistency. However, if you want to display a link preview, the app will try to fetch an image from the target website and display it. However, the app will display a standard website icon if the target website doesn't provide a picture."
+              }
+              ,{
+                "title":"Can I temporarily turn off a link from displaying it on my link page?",
+                "description":"Yes. Click on the link and uncheck the display this link option."
+                }
         ],
         "media":{
           "image":{
