@@ -1,7 +1,7 @@
 {
     "topics":[
       {
-        "topic": "link-manager",
+        "topic": "catalogue-manager",
         "title": "Building your link page",
         "description": "description",
         "content":[
@@ -30,7 +30,7 @@
       
       },
       {
-        "topic": "catalogue-manager",
+        "topic": "link-manager",
         "title": "How to build a  link page?",
         "description": "Linking a build page is easy. To start, click the + button at the bottom of the page and select a link you want to add to your link page. ",
         "content":[
