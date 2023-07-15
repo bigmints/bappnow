@@ -7,10 +7,10 @@ main:
     url: "https://demo.bappnow.com"
     weight: 3
     target: "_blank"
-  - name: "Help Center"
-    url: "https://bapp.tawk.help/"
-    weight: 3
-    target: "_blank"
+  # - name: "Help Center"
+  #   url: "https://bapp.tawk.help/"
+  #   weight: 3
+  #   target: "_blank"
 
 footer:
   - name: "Home"
