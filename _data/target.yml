@@ -1,27 +1,2 @@
-title: Who is Bapp for?
-description: Bapp booking engine can be used for a wide variety of business types
-content:
-  - title: "Salons & Spas"
-    description: "Beauty Parlors, Nail Salons, Hair Salons, Spas etc"
-    image:
-      url: "images/icon-wellness.png"
-  - title: "Clinics"
-    description: "Dentists, beauty clinics, ayurveda, accupuncture etc"
-    image:
-      url: "images/icon-clinic.png"
-  - title: "Venues & Equipments"
-    description: "Equipement rentals, jetski rentals, yacht rentals, bike rentals etc"
-    image:
-      url: "images/icon-rental.png"
-  - title: "Service Centers"
-    description: "Carwash, auto repair, car detailing, auto consultants etc"
-    image:
-      url: "images/icon-automotive.png"
-  - title: "Training Professionals"
-    description: "Yoga trainers, fitness trainers, classes etc"
-    image:
-      url: "images/icon-training.png"
-  - title: "Experience Providers"
-    description: "Desert safari, balloon rides, helicopter tours, skydiving etc"
-    image:
-      url: "images/icon-experience.png"
+title: What businesses are Bapp ideal for?
+description: Bapp can improve customer engagment for a wide variety of business.

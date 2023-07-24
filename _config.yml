@@ -17,13 +17,6 @@ collections:
   industries:
     output: true
     sort_by: weight
-  team:
-    output: true
-    sort_by: weight
-  api:
-    output: true
-    sort_by: weight
-
 
 defaults:
   - scope:
@@ -42,9 +35,11 @@ sass:
 
 plugins:
   - jekyll-environment-variables
+  - jekyll-sitemap
+  
 
 site-url: "https://www.bappnow.com/"
-
+url: "https://www.bappnow.com/"
 exclude:
   - Gemfile
   - Gemfile.lock

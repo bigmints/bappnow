@@ -7,7 +7,7 @@ bodyClass: "post"
   <div class="container pt-10">
    
     
-        <h1 class="display-4">{{ page.title }}</h1>
+       
 
      
   
@@ -16,10 +16,16 @@ bodyClass: "post"
 <div class="container pb-2 pt-0 pt-md-0 pb-md-10">
   <div class="row justify-content-start pb-2 pt-0 pt-md-0 pb-md-5">
     <div class="col-12 col-md-8">
+      <h1 class="display-4">{{ page.title }}</h1>
       <p>{{ page.date | date: "%A, %B %d, %y" }}</p>
       <img src="{{ page.cover }}" width="100%" />
         <div class="content">{{content}}</div>
       
+    </div>
+    <div class="col-12 col-md-4">
+    
+     
+     
     </div>
   </div>
 </div>

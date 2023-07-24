@@ -1,0 +1,137 @@
+---
+title: Bapp Links
+layout: default
+bodyClass: "page-product"
+---
+
+<div class="intro" style="background-image: linear-gradient( rgb(133, 133, 133), white), url('{{ page.intro_image | relURL }}'); background-size: cover;
+background-blend-mode:multiply;">
+    <div class="container">
+      <div class="row justify-content-start">
+        <div class="col-12 col-md-7 col-lg-6 order-2 order-md-1">
+            <h1 class="title text-white">{{page.title}}</h1>
+            <h3 class="text-white">{{page.description}}</h3>
+            <br/>
+          {% include get-started.html show_button=true %}
+       
+        </div>
+        <!-- {% if page.intro_image %}
+        <div class="col-12 col-md-5 col-lg-6 order-1 order-md-2 position-relative">
+          <img alt="{{ page.title }}" class="intro-image{% if page.intro_image_absolute %} intro-image-absolute{% endif %}{% if page.intro_image_hide_on_mobile %} intro-image-hide-mobile{% endif %}" src="{{ page.intro_image | relative_url }}" />
+        </div>
+        {% endif %} -->
+      </div>
+    </div>
+  </div>
+
+  {% if page.what-is-it %}
+<div class="strip">
+  <div class="container pt-6 pb-0 pb-md-1 ">
+    <h1>{{page.what-is-it.title}}</h1>
+  </div>
+  <div class="container pt-0 pb-2 pt-md-0 pb-md-4">
+    
+    <p>{{page.what-is-it.description}}</p>
+    </div>
+    <div class="container pt-0 pb-2 pt-md-0 pb-md-4">
+      <div class="row justify-content-center">
+    {% for what in page.what-is-it.items %}
+      <div class="col-12 col-md-4 col-lg-4 mb-2">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">{{ what.title }}</h5>
+            <p class="card-text">{{ what.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}</div>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if page.how-it-works %}
+<div class="strip strip-grey">
+  <div class="container pt-6 pb-0 pb-md-1 ">
+    <h1>{{page.how-it-works.title}}</h1>
+    <p>{{page.how-it-works.description}}</p>
+  </div>
+  <div class="container pt-0 pb-2 pt-md-0 pb-md-4">
+    <div class="row justify-content-center">
+      {% for how in page.how-it-works.items %}
+      <div class="col-12 col-md-4 col-lg-4 mb-2">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">{{ how.title }}</h5>
+            <p class="card-text">{{ how.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if page.features %}
+<div class="strip ">
+  <div class="container pt-5 pb-0 pb-md-1 ">
+    <h1>{{page.features.title}}</h1>
+    <p>{{page.features.description}}</p>
+  </div>
+  <div class="container pt-0 pb-2 pt-md-0 pb-md-4">
+    <div class="row justify-content-left">
+      {% for how in page.features.items %}
+      <div class="col-12 col-md-4 col-lg-4 mb-2">
+        <div class="card mb-3">
+          <div class="card-body">
+            <h5 class="card-title">{{ how.title }}</h5>
+            <p class="card-text">{{ how.description }}</p>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+      <p>** Feature availability varies in different countries / regions.</p>
+    </div>
+  </div>
+</div>
+{% endif %}
+
+{% if page.uid == 'appointments' %}
+<div class="strip">
+  <div class="strip-grey">
+    <div class="container pt-6 pb-0 pb-md-1">
+      <h1>{{ site.data.target.title }}</h1>
+      <p>{{ site.data.target.description }}</p>
+    </div>
+    <div class="container pt-2 pb-6 pb-md-5">
+      <div class="row justify-content-start">
+        {% for why in site.industries %}
+        <div class="col-12 col-md-4 mb-1">
+          <div class="card mb-2">
+            <div class="card-body">
+              <h3><a href="{{ why.url | absolute_url}}">{{ why.title }}</a> </h3>
+              <p>{{ why.description }} </p>
+             
+            </div>
+          </div>
+        </div>
+        {% endfor %}
+      </div>
+     
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<div class="strip">
+  <div class="container pb-0 pt-0 pt-md-0 pb-md-10">
+      <div class="row justify-content-start">
+          <div class="col-12 col-md-8">
+              <div class="service service-single">
+                  <div class="content mt-4">{{content}}</div>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
