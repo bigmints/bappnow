@@ -1,5 +1,5 @@
 main:
-  - name: "Links"
+  - name: "Link Pages"
     url: "/bapp-links/"
     weight: 1
     target: ""
