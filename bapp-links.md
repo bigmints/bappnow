@@ -3,7 +3,7 @@ title: Everything about your business in one link.
 layout: product
 uid: links
 description: Use Bapp Links to create a fully-customizable link in bio web page. Drive traffic from social channels and more.
-permalink: "/bapp-links/"
+permalink: "/link-pages/"
 intro_image: "https://images.unsplash.com/photo-1513530534585-c7b1394c6d51?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2371&q=80"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
