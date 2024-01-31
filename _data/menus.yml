@@ -1,6 +1,6 @@
 main:
   - name: "Link Pages"
-    url: "/bapp-links/"
+    url: "/link-pages/"
     weight: 1
     target: ""
   - name: "Catalogues"
