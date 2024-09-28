@@ -2,67 +2,78 @@
     {
         "id": "1",
         "name": "Facebook",
-        "url": "https://www.facebook.com",
+        "type": "url",
+        "urlStructure": "https://www.facebook.com/{handle}",
         "iconUrl": "https://www.facebook.com/favicon.ico"
     },
     {
         "id": "2",
         "name": "Instagram",
-        "url": "https://www.instagram.com",
+        "type": "url",
+        "urlStructure": "https://www.instagram.com/{handle}",
         "iconUrl": "https://www.instagram.com/favicon.ico"
     },
     {
         "id": "4",
         "name": "LinkedIn",
-        "url": "https://www.linkedin.com",
-        "iconUrl": "https://www.linkedin.com/favicon.ico"
+        "type": "url",
+        "urlStructure": "https://www.linkedin.com/in/{handle}",
+        "iconUrl": "https://www.facebook.com/favicon.ico"
     },
     {
         "id": "5",
         "name": "TikTok",
-        "url": "https://www.tiktok.com",
-        "iconUrl": "https://www.tiktok.com/favicon.ico"
+        "type": "url",
+        "urlStructure": "https://www.tiktok.com/{handle}",
+        "iconUrl": "https://www.facebook.com/favicon.ico"
     },
     {
         "id": "6",
         "name": "YouTube",
-        "url": "https://www.youtube.com",
+        "type": "url",
+        "urlStructure": "https://www.youtube.com/user/{handle}",
         "iconUrl": "https://www.youtube.com/favicon.ico"
     },
     {
         "id": "7",
         "name": "X (Twitter)",
-        "url": "https://www.x.com",
-        "iconUrl": "https://www.x.com/favicon.ico"
+        "type": "url",
+        "urlStructure": "https://www.x.com/{handle}",
+        "iconUrl": "https://www.youtube.com/favicon.ico"
     },
     {
         "id": "8",
         "name": "WhatsApp",
-        "url": "https://www.whatsapp.com",
-        "iconUrl": "https://www.whatsapp.com/favicon.ico"
+        "type": "url",
+        "urlStructure": "https://www.whatsapp.com/{handle}",
+        "iconUrl": "https://www.youtube.com/favicon.ico"
     },
     {
         "id": "9",
         "name": "Website",
-        "url": "https://www.website.com",
-        "iconUrl": "https://www.website.com/favicon.ico"
+        "type": "url",
+        "urlStructure": "https://www.website.com/{handle}",
+        "iconUrl": "https://www.youtube.com/favicon.ico"
     },
     {
         "id": "10",
         "name": "Phone",
-        "url": "https://www.phone.com",
-        "iconUrl": "https://www.phone.com/favicon.ico"
+        "type": "phone",
+        "urlStructure": "{handle}",
+        "iconUrl": "https://www.youtube.com/favicon.ico"
     },
     {
         "id": "11",
         "name": "Email",
-        "url": "https://www.email.com",
-        "iconUrl": "https://www.email.com/favicon.ico"
+        "type": "email",
+        "urlStructure": "{handle}",
+        "iconUrl": "https://www.youtube.com/favicon.ico"
     },
     {
         "id": "12",
         "name": "Custom",
-        "url": "https://www.custom.com",
-        "iconUrl": "https://www.custom.com/favicon.ico"
+        "type": "url",
+        "urlStructure": "{handle}",
+        "iconUrl": "https://www.youtube.com/favicon.ico"
     }
 ]
