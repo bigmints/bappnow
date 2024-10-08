@@ -4,76 +4,105 @@
         "name": "Facebook",
         "type": "url",
         "urlStructure": "https://www.facebook.com/{handle}",
-        "iconUrl": "https://www.facebook.com/favicon.ico"
+        "iconUrl": "https://www.facebook.com/favicon.ico",
+        "hint": "Enter your facebook channel name"
     },
     {
         "id": "2",
         "name": "Instagram",
         "type": "url",
         "urlStructure": "https://www.instagram.com/{handle}",
-        "iconUrl": "https://www.instagram.com/favicon.ico"
+        "iconUrl": "https://www.instagram.com/favicon.ico",
+        "hint": "Enter your instagram ID"
     },
     {
         "id": "4",
         "name": "LinkedIn",
         "type": "url",
         "urlStructure": "https://www.linkedin.com/in/{handle}",
-        "iconUrl": "https://www.facebook.com/favicon.ico"
+        "iconUrl": "https://www.facebook.com/favicon.ico",
+        "hint": "Enter your linkedIn page name"
     },
     {
         "id": "5",
         "name": "TikTok",
         "type": "url",
         "urlStructure": "https://www.tiktok.com/{handle}",
-        "iconUrl": "https://www.facebook.com/favicon.ico"
+        "iconUrl": "https://www.facebook.com/favicon.ico",
+        "hint": "Enter your tiktok handle"
     },
     {
         "id": "6",
         "name": "YouTube",
         "type": "url",
         "urlStructure": "https://www.youtube.com/user/{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico"
+        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "hint": "Enter your youtube handle"
     },
     {
         "id": "7",
         "name": "X (Twitter)",
         "type": "url",
         "urlStructure": "https://www.x.com/{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico"
+        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "hint": "Enter your X / Twitter handle"
     },
     {
         "id": "8",
         "name": "WhatsApp",
         "type": "url",
         "urlStructure": "https://www.whatsapp.com/{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico"
+        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "hint": "Enter your Whatsapp number with country code"
     },
     {
         "id": "9",
         "name": "Website",
         "type": "url",
         "urlStructure": "https://www.website.com/{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico"
+        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "hint": "Enter your website url"
+
     },
     {
         "id": "10",
         "name": "Phone",
         "type": "phone",
         "urlStructure": "{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico"
+        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "hint": "Enter your phone number"
     },
     {
         "id": "11",
         "name": "Email",
         "type": "email",
         "urlStructure": "{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico"
+        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "hint": "Enter your email address"
     },
     {
         "id": "12",
+        "name": "Playstore",
+        "type": "url",
+        "urlStructure": "{handle}",
+        "iconUrl": "https://play.google.com/store/apps/details?id=",
+        "hint": "Enter your playstore app id (eg: com.yourcompany.appname)"
+    },
+    {
+        "id": "13",
+        "name": "Appstore",
+        "type": "url",
+        "urlStructure": "{handle}",
+        "iconUrl": "https://play.google.com/store/apps/details?id=",
+        "hint": "Enter your appstore app id (eg: idXXXXXXX)"
+        
+    },
+    {
+        "id": "15",
         "name": "Custom",
         "type": "url",
         "urlStructure": "{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico"
+        "iconUrl": "https://www.youtube.com/favicon.ico",
+         "hint": "Enter a custom url to blog post, a website etc."
     }
 ]
