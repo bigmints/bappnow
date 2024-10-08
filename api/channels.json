@@ -4,7 +4,7 @@
         "name": "Facebook",
         "type": "url",
         "urlStructure": "https://www.facebook.com/{handle}",
-        "iconUrl": "https://www.facebook.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/facebook.svg",
         "hint": "Enter your facebook channel name"
     },
     {
@@ -12,7 +12,7 @@
         "name": "Instagram",
         "type": "url",
         "urlStructure": "https://www.instagram.com/{handle}",
-        "iconUrl": "https://www.instagram.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/instagram.svg",
         "hint": "Enter your instagram ID"
     },
     {
@@ -20,7 +20,7 @@
         "name": "LinkedIn",
         "type": "url",
         "urlStructure": "https://www.linkedin.com/in/{handle}",
-        "iconUrl": "https://www.facebook.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
         "hint": "Enter your linkedIn page name"
     },
     {
@@ -28,7 +28,7 @@
         "name": "TikTok",
         "type": "url",
         "urlStructure": "https://www.tiktok.com/{handle}",
-        "iconUrl": "https://www.facebook.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/tiktok.svg",
         "hint": "Enter your tiktok handle"
     },
     {
@@ -36,7 +36,7 @@
         "name": "YouTube",
         "type": "url",
         "urlStructure": "https://www.youtube.com/user/{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/youtube.svg",
         "hint": "Enter your youtube handle"
     },
     {
@@ -44,7 +44,7 @@
         "name": "X (Twitter)",
         "type": "url",
         "urlStructure": "https://www.x.com/{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/twitter.svg",
         "hint": "Enter your X / Twitter handle"
     },
     {
@@ -52,7 +52,7 @@
         "name": "WhatsApp",
         "type": "url",
         "urlStructure": "https://www.whatsapp.com/{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/whatsapp.svg",
         "hint": "Enter your Whatsapp number with country code"
     },
     {
@@ -60,7 +60,7 @@
         "name": "Website",
         "type": "url",
         "urlStructure": "https://www.website.com/{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/website.svg",
         "hint": "Enter your website url"
 
     },
@@ -69,7 +69,7 @@
         "name": "Phone",
         "type": "phone",
         "urlStructure": "{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/phone.svg",
         "hint": "Enter your phone number"
     },
     {
@@ -77,7 +77,7 @@
         "name": "Email",
         "type": "email",
         "urlStructure": "{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/email.svg",
         "hint": "Enter your email address"
     },
     {
@@ -85,7 +85,7 @@
         "name": "Playstore",
         "type": "url",
         "urlStructure": "{handle}",
-        "iconUrl": "https://play.google.com/store/apps/details?id=",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/playstore.svg",
         "hint": "Enter your playstore app id (eg: com.yourcompany.appname)"
     },
     {
@@ -93,7 +93,7 @@
         "name": "Appstore",
         "type": "url",
         "urlStructure": "{handle}",
-        "iconUrl": "https://play.google.com/store/apps/details?id=",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/appstore.svg",
         "hint": "Enter your appstore app id (eg: idXXXXXXX)"
         
     },
@@ -102,7 +102,7 @@
         "name": "Custom",
         "type": "url",
         "urlStructure": "{handle}",
-        "iconUrl": "https://www.youtube.com/favicon.ico",
+        "iconUrl": "https://www.bappnow.com/api/channel-icons/website.svg",
          "hint": "Enter a custom url to blog post, a website etc."
     }
 ]
