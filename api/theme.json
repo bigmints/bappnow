@@ -27,12 +27,25 @@
                 "youtube"
             ],
             "buttons": [
-                "Get directions",
-                "Call us",
-                "Whatsapp",
-                "View our catalogue",
-                "Get directions"
-            ]
+                {
+                    
+                    "title": "Get directions",
+                    "channelName": "directions"
+                },
+                {
+                    "title": "Call us",
+                    "channelName": "phone"
+                },
+                {
+                    "title": "Whatsapp",
+                    "channelName": "whatsapp"
+                },
+                {
+                    "title": "Visit our website",
+                    "channelName": "customUrl"
+                }
+
+                ]
         },
         "footer": {
             "title": "Download our apps",
