@@ -1,0 +1,49 @@
+{
+    "themes": {
+    "default": {
+        "name": "Default",
+        "description": "Default theme for your business",
+        "colorTheme": {
+            "primary": "#000000",
+            "secondary": "#FFFFFF"
+        },
+        "header": {
+            "handle": true,
+            "background": "#FFFFFF",
+            "title": "#000000",
+            "logo": true,
+            "address": true,
+            "cta": "catalogue",
+            "shareable": true
+        },
+        "body": {
+            "background": "#FFFFFF",
+            "links": [
+                "facebook",
+                "instagram",
+                "linkedin",
+                "x",
+                "tiktok",
+                "youtube"
+            ],
+            "buttons": [
+                "Get directions",
+                "Call us",
+                "Whatsapp",
+                "View our catalogue",
+                "Get directions"
+            ]
+        },
+        "footer": {
+            "title": "Download our apps",
+            "links": [
+                "playstore",
+                "appstore"
+            ],
+            "background": "#000000",
+            "text": "#FFFFFF",
+            "credits": "Made with Bapp"
+        }
+    }
+}
+}
