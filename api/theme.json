@@ -42,7 +42,11 @@
                 },
                 {
                     "title": "Visit our website",
-                    "channelName": "website"
+                    "channelName": "website",
+                },
+                {
+                    "title": "Link",
+                    "channelName": "custom",
                 }
 
                 ]
