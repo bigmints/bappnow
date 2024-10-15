@@ -51,7 +51,7 @@
         "id": "8",
         "name": "WhatsApp",
         "type": "url",
-        "urlStructure": "https://www.whatsapp.com/{handle}",
+        "urlStructure": "https://wa.me/{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/whatsapp.svg",
         "hint": "Enter your Whatsapp number with country code"
     },
@@ -59,7 +59,7 @@
         "id": "9",
         "name": "Website",
         "type": "url",
-        "urlStructure": "https://www.website.com/{handle}",
+        "urlStructure": "https://{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/website.svg",
         "hint": "Enter your website url"
 
