@@ -95,7 +95,7 @@
         "name": "Playstore",
         "type": "url",
         "label": "Playstore App Id",
-        "urlStructure": "{handle}",
+        "urlStructure": "https://play.google.com/store/apps/details?id={handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/playstore.svg",
         "hint": "Enter your playstore app id (eg: com.yourcompany.appname)"
     },
@@ -104,7 +104,7 @@
         "name": "Appstore",
         "type": "url",
         "label": "Appstore App Id",
-        "urlStructure": "{handle}",
+        "urlStructure": "https://apps.apple.com/us/app/{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/appstore.svg",
         "hint": "Enter your appstore app id (eg: idXXXXXXX)"
         
