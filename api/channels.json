@@ -3,6 +3,7 @@
         "id": "1",
         "name": "Facebook",
         "type": "url",
+        "label": "Facebook Id",
         "urlStructure": "https://www.facebook.com/{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/facebook.svg",
         "hint": "Enter your facebook channel name"
@@ -11,6 +12,7 @@
         "id": "2",
         "name": "Instagram",
         "type": "url",
+        "label": "Instagram Id",
         "urlStructure": "https://www.instagram.com/{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/instagram.svg",
         "hint": "Enter your instagram ID"
@@ -19,6 +21,7 @@
         "id": "4",
         "name": "LinkedIn",
         "type": "url",
+        "label": "Instagram Id",
         "urlStructure": "https://www.linkedin.com/in/{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
         "hint": "Enter your linkedIn page name"
@@ -27,6 +30,7 @@
         "id": "5",
         "name": "TikTok",
         "type": "url",
+        "label": "TikTok Handle",
         "urlStructure": "https://www.tiktok.com/{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/tiktok.svg",
         "hint": "Enter your tiktok handle"
@@ -35,6 +39,7 @@
         "id": "6",
         "name": "YouTube",
         "type": "url",
+        "label": "YouTube Handle",
         "urlStructure": "https://www.youtube.com/user/{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/youtube.svg",
         "hint": "Enter your youtube handle"
@@ -43,6 +48,7 @@
         "id": "7",
         "name": "X (Twitter)",
         "type": "url",
+        "label": "X / Twitter Handle",
         "urlStructure": "https://www.x.com/{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/twitter.svg",
         "hint": "Enter your X / Twitter handle"
@@ -51,6 +57,7 @@
         "id": "8",
         "name": "WhatsApp",
         "type": "url",
+        "label": "WhatsApp Number",
         "urlStructure": "https://wa.me/{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/whatsapp.svg",
         "hint": "Enter your Whatsapp number with country code"
@@ -59,6 +66,7 @@
         "id": "9",
         "name": "Website",
         "type": "url",
+        "label": "Website Url",
         "urlStructure": "https://{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/website.svg",
         "hint": "Enter your website url"
@@ -68,6 +76,7 @@
         "id": "10",
         "name": "Phone",
         "type": "phone",
+        "label": "Phone Number",
         "urlStructure": "{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/phone.svg",
         "hint": "Enter your phone number"
@@ -76,6 +85,7 @@
         "id": "11",
         "name": "Email",
         "type": "email",
+        "label": "Email Address",
         "urlStructure": "{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/email.svg",
         "hint": "Enter your email address"
@@ -84,6 +94,7 @@
         "id": "12",
         "name": "Playstore",
         "type": "url",
+        "label": "Playstore App Id",
         "urlStructure": "{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/playstore.svg",
         "hint": "Enter your playstore app id (eg: com.yourcompany.appname)"
@@ -92,6 +103,7 @@
         "id": "13",
         "name": "Appstore",
         "type": "url",
+        "label": "Appstore App Id",
         "urlStructure": "{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/appstore.svg",
         "hint": "Enter your appstore app id (eg: idXXXXXXX)"
@@ -101,6 +113,7 @@
         "id": "15",
         "name": "Custom",
         "type": "url",
+        "label": "Custom Url",
         "urlStructure": "{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/website.svg",
          "hint": "Enter a custom url to blog post, a website etc."
