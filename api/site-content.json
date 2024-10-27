@@ -1,0 +1,29 @@
+{
+    "logoUrl": "https://www.bappnow.com/images/logo/logo-mobile.svg",
+    "searchTitle": "Know a business url?",
+    "placeHolder": "Enter a business handle",
+    "contentBlocks": [
+        {
+            "title": "New to Bapp ?",
+            "description" : "Get a bapp link now.",
+            "imageUrl": "",
+            "cta": "https://www.bappnow.com"
+        },
+        {
+            "title": "New to Bapp ?",
+            "description" : "Learn how bapp can impact your business",
+            "imageUrl": "",
+            "cta": "https://www.bappnow.com"
+        }
+    ],
+    "appstoreLinks":{
+        "title": "Try our Link Pages, Digital Catalogues, and Appointment Management System and more.",
+        "playStore": "https://play.google.com/store/apps/details?id=com.bigmints.bapp.partner",
+        "appStore": "https://apps.apple.com/ae/app/bapp-partner/id1605110879"
+    },
+    "footer":{
+       "copyright":"©2023 Bappnow.com",
+       "privacyUrl": "https://www.bappnow.com/privacy-policy",
+       "termsUrl":""
+    }
+}
