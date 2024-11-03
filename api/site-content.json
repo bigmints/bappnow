@@ -4,15 +4,17 @@
     "placeHolder": "Enter a business handle",
     "contentBlocks": [
         {
-            "title": "New to Bapp ?",
-            "description" : "Get a bapp link now.",
+            "title": "Get started",
+            "description" : "Get a bapp link and publish your catalogue.",
             "imageUrl": "",
-            "cta": "https://www.bappnow.com"
+            "ctaLabel": "Get a bapp link",
+            "cta": "https://app.bappnow.com"
         },
         {
-            "title": "New to Bapp ?",
-            "description" : "Learn how bapp can impact your business",
+            "title": "New to Bapp",
+            "description" : "Learn how bapp can impact your business.",
             "imageUrl": "",
+            "ctaLabel": "Learn how bapp can impact your business",
             "cta": "https://www.bappnow.com"
         }
     ],
