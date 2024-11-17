@@ -1,0 +1,121 @@
+{
+    "title": "Integration Guide",
+    "description": "This is where you will see how your business performs.",
+    "channels": [
+        {
+            "name": "instagram",
+            "title": "Instagram",
+            "image": "https://via.placeholder.com/150",
+            "description": "How to set up your Instagram account to use Bapplink.",
+            "contentBlocks": [
+                {
+                    "heading": "Get an Instagram account",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Create a new Instagram account or use an existing one."
+                },
+                {
+                    "heading": "Change your website URL",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Change your website URL to your Bapplink Link Page."
+                },
+                {
+                    "heading": "Add your Link Page to your Instagram profile",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Add your Link Page to your Instagram profile."
+                }
+            ]
+        },
+        {
+            "name": "tiktok",
+            "title": "TikTok",
+            "image": "https://via.placeholder.com/150",
+            "description": "How to set up your TikTok account to use Bapplink.",
+            "contentBlocks": [
+                {
+                    "heading": "Get an TikTok account",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Create a new TikTok account or use an existing one."
+                },
+                {
+                    "heading": "Change your website URL",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Change your website URL to your Bapplink Link Page."
+                },
+                {
+                    "heading": "Add your Link Page to your TikTok profile",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Add your Link Page to your TikTok profile."
+                }
+            ]
+        },
+        {
+            "name": "youtube",
+            "title": "YouTube",
+            "image": "https://via.placeholder.com/150",
+            "description": "How to set up your YouTube account to use Bapplink.",
+            "contentBlocks": [
+                {
+                    "heading": "Get an TikTok account",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Create a new YouTube account or use an existing one."
+                },
+                {
+                    "heading": "Change your website URL",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Change your website URL to your Bapplink Link Page."
+                },
+                {
+                    "heading": "Add your Link Page to your TikTok profile",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Add your Link Page to your YouTube profile."
+                }
+            ]
+        },
+        {
+            "name": "facebook",
+            "title": "Facebook",
+            "image": "https://via.placeholder.com/150",
+            "description": "How to set up your Facebook account to use Bapplink.",
+            "contentBlocks": [
+                {
+                    "heading": "Get an TikTok account",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Create a new Facebook account or use an existing one."
+                },
+                {
+                    "heading": "Change your website URL",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Change your website URL to your Bapplink Link Page."
+                },
+                {
+                    "heading": "Add your Link Page to your TikTok profile",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Add your Link Page to your Facebook profile."
+                }
+            ]
+        },
+        {
+            "name": "website",
+            "title": "Add booking functionality to your website",
+            "image": "https://via.placeholder.com/150",
+            "description": "How to set up your website to use Bapplink.",
+            "contentBlocks": [
+                {
+                    "heading": "Get an website",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Create a new website or use an existing one."
+                },
+                {
+                    "heading": "Change your website URL",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Change your website URL to your Bapplink Link Page."
+                },
+                {
+                    "heading": "Add your Link Page to your website",
+                    "image": "https://via.placeholder.com/150",
+                    "body": "Add your Link Page to your website."
+                }
+            ]
+        }
+    ]   
+}
