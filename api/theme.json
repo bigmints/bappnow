@@ -18,40 +18,25 @@
             "shareable": true
         },
         "body": {
-            "background": "#FFFFFF",
-            "links": [
-                "facebook",
-                "instagram",
-                "linkedin",
-                "x",
-                "tiktok",
-                "youtube"
-            ],
-            "buttons": [
-                {
-                    
-                    "title": "Get directions",
-                    "channelName": "directions"
-                },
-                {
-                    "title": "Call us",
-                    "channelName": "phone"
-                },
-                {
-                    "title": "Whatsapp",
-                    "channelName": "whatsapp"
-                },
-                {
-                    "title": "Visit our website",
-                    "channelName": "website"
-                },
-                {
-                    "title": "Link",
-                    "channelName": "custom"
-                }
-
-                ]
-        },
+        "background": "#FFFFFF",
+        "links": [
+          "facebook",
+          "instagram",
+          "linkedin",
+          "x",
+          "tiktok",
+          "youtube",
+          "threads"
+        ],
+        "buttons": [
+          {"title": "Get directions", "channelName": "directions"},
+          {"title": "Call us", "channelName": "phone"},
+          {"title": "Whatsapp", "channelName": "whatsapp"},
+          {"title": "Visit our website", "channelName": "website"},
+          {"title": "Website", "channelName": "custom"},
+          {"title": "Send us an email", "channelName": "email"}
+        ]
+      },
         "footer": {
             "title": "Download our apps",
             "links": [
