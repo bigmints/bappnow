@@ -21,7 +21,7 @@
         "id": "4",
         "name": "LinkedIn",
         "type": "url",
-        "label": "Instagram Id",
+        "label": "LinkedIn page name",
         "urlStructure": "https://www.linkedin.com/in/{handle}",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
         "hint": "Enter your linkedIn page name"
