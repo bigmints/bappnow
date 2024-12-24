@@ -50,6 +50,9 @@
         "type": "url",
         "label": "X / Twitter Handle",
         "urlStructure": "https://www.x.com/{handle}",
+        "alternativeUrls": [
+            "https://www.twitter.com/{handle}"
+        ],
         "iconUrl": "https://www.bappnow.com/api/channel-icons/twitter.svg",
         "hint": "Enter your X / Twitter handle"
     },
