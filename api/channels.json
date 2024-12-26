@@ -22,7 +22,10 @@
         "name": "LinkedIn",
         "type": "url",
         "label": "LinkedIn page name",
-        "urlStructure": "https://www.linkedin.com/in/{handle}",
+        "urlStructure": "https://www.linkedin.com/company/{handle}",
+        "alternativeUrls": [
+            "https://www.linkedin.com/in/{handle}"
+        ],
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
         "hint": "Enter your linkedIn page name"
     },
@@ -40,7 +43,11 @@
         "name": "YouTube",
         "type": "url",
         "label": "YouTube Handle",
-        "urlStructure": "https://www.youtube.com/user/{handle}",
+        "urlStructure": "https://www.youtube.com/{handle}",
+        "alternativeUrls": [
+            "https://www.youtube.com/channel/{handle}",
+            "https://www.youtube.com/user/{handle}"
+        ],
         "iconUrl": "https://www.bappnow.com/api/channel-icons/youtube.svg",
         "hint": "Enter your youtube handle"
     },
@@ -62,6 +69,9 @@
         "type": "url",
         "label": "WhatsApp Number",
         "urlStructure": "https://wa.me/{handle}",
+        "alternativeUrls": [
+            "https://api.whatsapp.com/send?phone={handle}"
+        ],
         "iconUrl": "https://www.bappnow.com/api/channel-icons/whatsapp.svg",
         "hint": "Enter your Whatsapp number with country code"
     },
