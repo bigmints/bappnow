@@ -1,800 +1,727 @@
 [
     {
-        "type": "Salon",
-        "catalogue": [
-            {
-                "category": "Hair Styling",
-                "description": "Professional hair styling services",
+        "category": "Hair Styling",
+        "description": "Professional hair styling services",
+        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "published": true,
+        "sequence": 1,
+        "items": {
+            "item1": {
+                "name": "Blowout & Styling",
+                "description": "Professional blow dry with styling",
+                "price": 45.00,
                 "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "published": true,
-                "sequence": 1,
-                "items": {
-                    "item1": {
-                        "name": "Blowout & Styling",
-                        "description": "Professional blow dry with styling",
+                "isAvailable": true,
+                "duration": 45,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Short Hair",
                         "price": 45.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
                         "duration": 45,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Short Hair",
-                                "price": 45.00,
-                                "duration": 45,
-                                "description": "Above shoulder length",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Medium Hair",
-                                "price": 55.00,
-                                "duration": 60,
-                                "description": "Shoulder to mid-back length",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Long Hair",
-                                "price": 65.00,
-                                "duration": 75,
-                                "description": "Below mid-back length",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
+                        "description": "Above shoulder length",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     },
-                    "item2": {
-                        "name": "Special Occasion Style",
-                        "description": "Formal styling for special events",
-                        "price": 85.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
+                    {
+                        "name": "Medium Hair",
+                        "price": 55.00,
                         "duration": 60,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Updo",
-                                "price": 85.00,
-                                "duration": 60,
-                                "description": "Classic updo styling",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Half-Up Style",
-                                "price": 75.00,
-                                "duration": 45,
-                                "description": "Partial updo with loose curls",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
+                        "description": "Shoulder to mid-back length",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     },
-                    "item3": {
-                        "name": "Bridal Trial",
-                        "description": "Wedding hair trial session",
-                        "price": 120.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 90,
-                        "variationsEnabled": false
-                    },
-                    "item4": {
-                        "name": "Hair Braiding",
-                        "description": "Professional braiding services",
+                    {
+                        "name": "Long Hair",
                         "price": 65.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 60,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Single Braid",
-                                "price": 65.00,
-                                "duration": 60,
-                                "description": "One intricate braid style",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Multiple Braids",
-                                "price": 85.00,
-                                "duration": 90,
-                                "description": "Multiple braid styling",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item5": {
-                        "name": "Curling/Flat Iron Styling",
-                        "description": "Heat styling services",
-                        "price": 55.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 45,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Curling",
-                                "price": 55.00,
-                                "duration": 45,
-                                "description": "Curling iron styling",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Straightening",
-                                "price": 55.00,
-                                "duration": 45,
-                                "description": "Flat iron styling",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
+                        "duration": 75,
+                        "description": "Below mid-back length",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     }
-                }
+                ]
             },
-            {
-                "category": "Hair Coloring",
-                "description": "Professional hair coloring services",
+            "item2": {
+                "name": "Special Occasion Style",
+                "description": "Formal styling for special events",
+                "price": 85.00,
                 "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "published": true,
-                "sequence": 2,
-                "items": {
-                    "item1": {
-                        "name": "Full Color",
-                        "description": "All-over hair color application",
-                        "price": 95.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 120,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Root Touch-up",
-                                "price": 75.00,
-                                "duration": 90,
-                                "description": "Root color application only",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Full Color - Short Hair",
-                                "price": 95.00,
-                                "duration": 120,
-                                "description": "All-over color for short hair",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Full Color - Long Hair",
-                                "price": 125.00,
-                                "duration": 150,
-                                "description": "All-over color for long hair",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item2": {
-                        "name": "Highlights",
-                        "description": "Partial or full highlighting service",
-                        "price": 120.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 150,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Partial Highlights",
-                                "price": 120.00,
-                                "duration": 120,
-                                "description": "Top and crown highlighting",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Full Highlights",
-                                "price": 160.00,
-                                "duration": 150,
-                                "description": "Full head of highlights",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item3": {
-                        "name": "Balayage",
-                        "description": "Hand-painted highlighting technique",
-                        "price": 200.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 180,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Partial Balayage",
-                                "price": 200.00,
-                                "duration": 150,
-                                "description": "Partial hand-painted highlights",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Full Balayage",
-                                "price": 250.00,
-                                "duration": 180,
-                                "description": "Full hand-painted highlights",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item4": {
-                        "name": "Fashion Colors",
-                        "description": "Vibrant and creative color services",
-                        "price": 150.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 180,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Single Color",
-                                "price": 150.00,
-                                "duration": 150,
-                                "description": "One fashion color application",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Multiple Colors",
-                                "price": 200.00,
-                                "duration": 180,
-                                "description": "Multiple fashion colors",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item5": {
-                        "name": "Color Correction",
-                        "description": "Professional color correction service",
-                        "price": 200.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 240,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Light Correction",
-                                "price": 200.00,
-                                "duration": 180,
-                                "description": "Minor color correction",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Major Correction",
-                                "price": 300.00,
-                                "duration": 240,
-                                "description": "Extensive color correction",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "category": "Hair Treatments",
-                "description": "Professional hair care treatments",
-                "imageUrl": "https://example.com/images/treatments.jpg",
-                "published": true,
-                "sequence": 3,
-                "items": {
-                    "item1": {
-                        "name": "Deep Conditioning",
-                        "description": "Intensive hair conditioning treatment",
-                        "price": 45.00,
-                        "imageUrl": "https://example.com/images/conditioning.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 30,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Basic Treatment",
-                                "price": 45.00,
-                                "duration": 30,
-                                "description": "Standard conditioning treatment",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Premium Treatment",
-                                "price": 65.00,
-                                "duration": 45,
-                                "description": "Advanced conditioning with heat therapy",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item2": {
-                        "name": "Keratin Treatment",
-                        "description": "Professional smoothing treatment",
-                        "price": 200.00,
-                        "imageUrl": "https://example.com/images/keratin.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 180,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Express Keratin",
-                                "price": 200.00,
-                                "duration": 120,
-                                "description": "Quick smoothing treatment",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Full Keratin",
-                                "price": 300.00,
-                                "duration": 180,
-                                "description": "Complete smoothing treatment",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item3": {
-                        "name": "Scalp Treatment",
-                        "description": "Therapeutic scalp care",
-                        "price": 75.00,
-                        "imageUrl": "https://example.com/images/scalp.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 45,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Dandruff Treatment",
-                                "price": 75.00,
-                                "duration": 45,
-                                "description": "Anti-dandruff therapy",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Oil Treatment",
-                                "price": 85.00,
-                                "duration": 60,
-                                "description": "Deep oil therapy",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item4": {
-                        "name": "Hair Mask",
-                        "description": "Intensive hair mask treatment",
-                        "price": 55.00,
-                        "imageUrl": "https://example.com/images/mask.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 30,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Moisture Mask",
-                                "price": 55.00,
-                                "duration": 30,
-                                "description": "Hydrating hair mask",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Protein Mask",
-                                "price": 65.00,
-                                "duration": 45,
-                                "description": "Strengthening protein mask",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item5": {
-                        "name": "Split End Treatment",
-                        "description": "Split end repair therapy",
-                        "price": 40.00,
-                        "imageUrl": "https://example.com/images/split-ends.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 30,
-                        "variationsEnabled": false
-                    }
-                }
-            },
-            {
-                "category": "Nail Services",
-                "description": "Professional nail care services",
-                "imageUrl": "https://example.com/images/nails.jpg",
-                "published": true,
-                "sequence": 4,
-                "items": {
-                    "item1": {
-                        "name": "Manicure",
-                        "description": "Professional nail care for hands",
-                        "price": 35.00,
-                        "imageUrl": "https://example.com/images/manicure.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 45,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Basic Manicure",
-                                "price": 35.00,
-                                "duration": 45,
-                                "description": "Essential nail care",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Gel Manicure",
-                                "price": 55.00,
-                                "duration": 60,
-                                "description": "Long-lasting gel polish",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item2": {
-                        "name": "Pedicure",
-                        "description": "Professional nail care for feet",
-                        "price": 45.00,
-                        "imageUrl": "https://example.com/images/pedicure.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 60,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Basic Pedicure",
-                                "price": 45.00,
-                                "duration": 60,
-                                "description": "Essential foot care",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Spa Pedicure",
-                                "price": 65.00,
-                                "duration": 75,
-                                "description": "Luxury foot treatment",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item3": {
-                        "name": "Nail Art",
-                        "description": "Decorative nail designs",
-                        "price": 25.00,
-                        "imageUrl": "https://example.com/images/nail-art.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 30,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Simple Design",
-                                "price": 25.00,
-                                "duration": 30,
-                                "description": "Basic nail art",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Complex Design",
-                                "price": 45.00,
-                                "duration": 60,
-                                "description": "Intricate nail art",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item4": {
-                        "name": "Nail Extensions",
-                        "description": "Artificial nail application",
-                        "price": 75.00,
-                        "imageUrl": "https://example.com/images/extensions.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 90,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Acrylic Full Set",
-                                "price": 75.00,
-                                "duration": 90,
-                                "description": "Full acrylic extensions",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Gel Extensions",
-                                "price": 85.00,
-                                "duration": 90,
-                                "description": "Full gel extensions",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    },
-                    "item5": {
-                        "name": "Polish Change",
-                        "description": "Quick polish application",
-                        "price": 15.00,
-                        "imageUrl": "https://example.com/images/polish.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 15,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Regular Polish",
-                                "price": 15.00,
-                                "duration": 15,
-                                "description": "Standard nail polish",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Gel Polish",
-                                "price": 25.00,
-                                "duration": 30,
-                                "description": "Long-lasting gel polish",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
-                    }
-                }
-            },
-            {
-                "category": "Beauty & Makeup",
-                "description": "Professional makeup and beauty services",
-                "imageUrl": "https://example.com/images/makeup.jpg",
-                "published": true,
-                "sequence": 5,
-                "items": {
-                    "item1": {
-                        "name": "Full Face Makeup",
-                        "description": "Complete makeup application",
+                "isAvailable": true,
+                "duration": 60,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Updo",
                         "price": 85.00,
-                        "imageUrl": "https://example.com/images/full-face.jpg",
-                        "published": true,
-                        "isAvailable": true,
                         "duration": 60,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Natural Look",
-                                "price": 85.00,
-                                "duration": 60,
-                                "description": "Subtle everyday makeup",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Glam Look",
-                                "price": 120.00,
-                                "duration": 90,
-                                "description": "Dramatic evening makeup",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
+                        "description": "Classic updo styling",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     },
-                    "item2": {
-                        "name": "Bridal Makeup",
-                        "description": "Wedding day makeup",
-                        "price": 150.00,
-                        "imageUrl": "https://example.com/images/bridal-makeup.jpg",
-                        "published": true,
-                        "isAvailable": true,
+                    {
+                        "name": "Half-Up Style",
+                        "price": 75.00,
+                        "duration": 45,
+                        "description": "Partial updo with loose curls",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item3": {
+                "name": "Bridal Trial",
+                "description": "Wedding hair trial session",
+                "price": 120.00,
+                "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "published": true,
+                "isAvailable": true,
+                "duration": 90,
+                "variationsEnabled": false
+            },
+            "item4": {
+                "name": "Hair Braiding",
+                "description": "Professional braiding services",
+                "price": 65.00,
+                "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "published": true,
+                "isAvailable": true,
+                "duration": 60,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Single Braid",
+                        "price": 65.00,
+                        "duration": 60,
+                        "description": "One intricate braid style",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Multiple Braids",
+                        "price": 85.00,
                         "duration": 90,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Bride",
-                                "price": 150.00,
-                                "duration": 90,
-                                "description": "Bridal makeup application",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Bridal Party",
-                                "price": 85.00,
-                                "duration": 60,
-                                "description": "Bridesmaid makeup",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
+                        "description": "Multiple braid styling",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item5": {
+                "name": "Curling/Flat Iron Styling",
+                "description": "Heat styling services",
+                "price": 55.00,
+                "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "published": true,
+                "isAvailable": true,
+                "duration": 45,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Curling",
+                        "price": 55.00,
+                        "duration": 45,
+                        "description": "Curling iron styling",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     },
-                    "item3": {
-                        "name": "Eyebrow Shaping",
-                        "description": "Professional brow grooming",
-                        "price": 25.00,
-                        "imageUrl": "https://example.com/images/brows.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 30,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Waxing",
-                                "price": 25.00,
-                                "duration": 30,
-                                "description": "Brow wax and shape",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Threading",
-                                "price": 30.00,
-                                "duration": 30,
-                                "description": "Precise thread shaping",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
+                    {
+                        "name": "Straightening",
+                        "price": 55.00,
+                        "duration": 45,
+                        "description": "Flat iron styling",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "category": "Hair Coloring",
+        "description": "Professional hair coloring services",
+        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "published": true,
+        "sequence": 2,
+        "items": {
+            "item1": {
+                "name": "Full Color",
+                "description": "All-over hair color application",
+                "price": 95.00,
+                "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "published": true,
+                "isAvailable": true,
+                "duration": 120,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Root Touch-up",
+                        "price": 75.00,
+                        "duration": 90,
+                        "description": "Root color application only",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     },
-                    "item4": {
-                        "name": "Lash Services",
-                        "description": "Professional lash enhancement",
-                        "price": 150.00,
-                        "imageUrl": "https://example.com/images/lashes.jpg",
-                        "published": true,
-                        "isAvailable": true,
+                    {
+                        "name": "Full Color - Short Hair",
+                        "price": 95.00,
                         "duration": 120,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Classic Extensions",
-                                "price": 150.00,
-                                "duration": 120,
-                                "description": "Individual lash extensions",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Volume Extensions",
-                                "price": 200.00,
-                                "duration": 150,
-                                "description": "Full volume lash set",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
+                        "description": "All-over color for short hair",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     },
-                    "item5": {
-                        "name": "Makeup Lesson",
-                        "description": "Personal makeup tutorial",
-                        "price": 100.00,
-                        "imageUrl": "https://example.com/images/lesson.jpg",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 90,
-                        "variationsEnabled": true,
-                        "variations": [
-                            {
-                                "name": "Basic Techniques",
-                                "price": 100.00,
-                                "duration": 90,
-                                "description": "Everyday makeup skills",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            },
-                            {
-                                "name": "Advanced Techniques",
-                                "price": 150.00,
-                                "duration": 120,
-                                "description": "Professional makeup skills",
-                                "isEnabled": true,
-                                "offerPercentage": 0
-                            }
-                        ]
+                    {
+                        "name": "Full Color - Long Hair",
+                        "price": 125.00,
+                        "duration": 150,
+                        "description": "All-over color for long hair",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     }
-                }
-            }
-        ]
-    },
-    {
-        "type": "Barber",
-        "catalogue": [
-            {
-                "category": "Haircuts",
-                "description": "Professional haircuts",
+                ]
+            },
+            "item2": {
+                "name": "Highlights",
+                "description": "Partial or full highlighting service",
+                "price": 120.00,
                 "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
                 "published": true,
-                "sequence": 1,
-                "items": {
-                    "item1": {
-                        "name": "Men's Cut",
-                        "description": "Classic men's haircut",
-                        "price": 30.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
+                "isAvailable": true,
+                "duration": 150,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Partial Highlights",
+                        "price": 120.00,
+                        "duration": 120,
+                        "description": "Top and crown highlighting",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Full Highlights",
+                        "price": 160.00,
+                        "duration": 150,
+                        "description": "Full head of highlights",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item3": {
+                "name": "Balayage",
+                "description": "Hand-painted highlighting technique",
+                "price": 200.00,
+                "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "published": true,
+                "isAvailable": true,
+                "duration": 180,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Partial Balayage",
+                        "price": 200.00,
+                        "duration": 150,
+                        "description": "Partial hand-painted highlights",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Full Balayage",
+                        "price": 250.00,
+                        "duration": 180,
+                        "description": "Full hand-painted highlights",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item4": {
+                "name": "Fashion Colors",
+                "description": "Vibrant and creative color services",
+                "price": 150.00,
+                "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "published": true,
+                "isAvailable": true,
+                "duration": 180,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Single Color",
+                        "price": 150.00,
+                        "duration": 150,
+                        "description": "One fashion color application",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Multiple Colors",
+                        "price": 200.00,
+                        "duration": 180,
+                        "description": "Multiple fashion colors",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item5": {
+                "name": "Color Correction",
+                "description": "Professional color correction service",
+                "price": 200.00,
+                "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+                "published": true,
+                "isAvailable": true,
+                "duration": 240,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Light Correction",
+                        "price": 200.00,
+                        "duration": 180,
+                        "description": "Minor color correction",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Major Correction",
+                        "price": 300.00,
+                        "duration": 240,
+                        "description": "Extensive color correction",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            }
+        }
+    },
+    {
+        "category": "Hair Treatments",
+        "description": "Professional hair care treatments",
+        "imageUrl": "https://example.com/images/treatments.jpg",
+        "published": true,
+        "sequence": 3,
+        "items": {
+            "item1": {
+                "name": "Deep Conditioning",
+                "description": "Intensive hair conditioning treatment",
+                "price": 45.00,
+                "imageUrl": "https://example.com/images/conditioning.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 30,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Basic Treatment",
+                        "price": 45.00,
                         "duration": 30,
-                        "priceNote": null
+                        "description": "Standard conditioning treatment",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     },
-                    "item2": {
-                        "name": "Beard Trim",
-                        "description": "Professional beard trimming",
-                        "price": 20.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 15,
-                        "priceNote": null
+                    {
+                        "name": "Premium Treatment",
+                        "price": 65.00,
+                        "duration": 45,
+                        "description": "Advanced conditioning with heat therapy",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     }
-                }
+                ]
+            },
+            "item2": {
+                "name": "Keratin Treatment",
+                "description": "Professional smoothing treatment",
+                "price": 200.00,
+                "imageUrl": "https://example.com/images/keratin.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 180,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Express Keratin",
+                        "price": 200.00,
+                        "duration": 120,
+                        "description": "Quick smoothing treatment",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Full Keratin",
+                        "price": 300.00,
+                        "duration": 180,
+                        "description": "Complete smoothing treatment",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item3": {
+                "name": "Scalp Treatment",
+                "description": "Therapeutic scalp care",
+                "price": 75.00,
+                "imageUrl": "https://example.com/images/scalp.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 45,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Dandruff Treatment",
+                        "price": 75.00,
+                        "duration": 45,
+                        "description": "Anti-dandruff therapy",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Oil Treatment",
+                        "price": 85.00,
+                        "duration": 60,
+                        "description": "Deep oil therapy",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item4": {
+                "name": "Hair Mask",
+                "description": "Intensive hair mask treatment",
+                "price": 55.00,
+                "imageUrl": "https://example.com/images/mask.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 30,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Moisture Mask",
+                        "price": 55.00,
+                        "duration": 30,
+                        "description": "Hydrating hair mask",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Protein Mask",
+                        "price": 65.00,
+                        "duration": 45,
+                        "description": "Strengthening protein mask",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item5": {
+                "name": "Split End Treatment",
+                "description": "Split end repair therapy",
+                "price": 40.00,
+                "imageUrl": "https://example.com/images/split-ends.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 30,
+                "variationsEnabled": false
             }
-        ]
+        }
     },
     {
-        "type": "Spa",
-        "catalogue": [
-            {
-                "category": "Massages",
-                "description": "Relaxing massage treatments",
-                "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "category": "Nail Services",
+        "description": "Professional nail care services",
+        "imageUrl": "https://example.com/images/nails.jpg",
+        "published": true,
+        "sequence": 4,
+        "items": {
+            "item1": {
+                "name": "Manicure",
+                "description": "Professional nail care for hands",
+                "price": 35.00,
+                "imageUrl": "https://example.com/images/manicure.jpg",
                 "published": true,
-                "sequence": 1,
-                "items": {
-                    "item1": {
-                        "name": "Swedish Massage",
-                        "description": "Classic relaxation massage",
-                        "price": 90.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
-                        "duration": 60,
-                        "priceNote": null
+                "isAvailable": true,
+                "duration": 45,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Basic Manicure",
+                        "price": 35.00,
+                        "duration": 45,
+                        "description": "Essential nail care",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     },
-                    "item2": {
-                        "name": "Deep Tissue Massage",
-                        "description": "Therapeutic deep tissue treatment",
-                        "price": 110.00,
-                        "imageUrl": "https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?q=80&w=3474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-                        "published": true,
-                        "isAvailable": true,
+                    {
+                        "name": "Gel Manicure",
+                        "price": 55.00,
                         "duration": 60,
-                        "priceNote": null
+                        "description": "Long-lasting gel polish",
+                        "isEnabled": true,
+                        "offerPercentage": 0
                     }
-                }
+                ]
+            },
+            "item2": {
+                "name": "Pedicure",
+                "description": "Professional nail care for feet",
+                "price": 45.00,
+                "imageUrl": "https://example.com/images/pedicure.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 60,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Basic Pedicure",
+                        "price": 45.00,
+                        "duration": 60,
+                        "description": "Essential foot care",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Spa Pedicure",
+                        "price": 65.00,
+                        "duration": 75,
+                        "description": "Luxury foot treatment",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item3": {
+                "name": "Nail Art",
+                "description": "Decorative nail designs",
+                "price": 25.00,
+                "imageUrl": "https://example.com/images/nail-art.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 30,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Simple Design",
+                        "price": 25.00,
+                        "duration": 30,
+                        "description": "Basic nail art",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Complex Design",
+                        "price": 45.00,
+                        "duration": 60,
+                        "description": "Intricate nail art",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item4": {
+                "name": "Nail Extensions",
+                "description": "Artificial nail application",
+                "price": 75.00,
+                "imageUrl": "https://example.com/images/extensions.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 90,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Acrylic Full Set",
+                        "price": 75.00,
+                        "duration": 90,
+                        "description": "Full acrylic extensions",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Gel Extensions",
+                        "price": 85.00,
+                        "duration": 90,
+                        "description": "Full gel extensions",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item5": {
+                "name": "Polish Change",
+                "description": "Quick polish application",
+                "price": 15.00,
+                "imageUrl": "https://example.com/images/polish.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 15,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Regular Polish",
+                        "price": 15.00,
+                        "duration": 15,
+                        "description": "Standard nail polish",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Gel Polish",
+                        "price": 25.00,
+                        "duration": 30,
+                        "description": "Long-lasting gel polish",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
             }
-        ]
+        }
+    },
+    {
+        "category": "Beauty & Makeup",
+        "description": "Professional makeup and beauty services",
+        "imageUrl": "https://example.com/images/makeup.jpg",
+        "published": true,
+        "sequence": 5,
+        "items": {
+            "item1": {
+                "name": "Full Face Makeup",
+                "description": "Complete makeup application",
+                "price": 85.00,
+                "imageUrl": "https://example.com/images/full-face.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 60,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Natural Look",
+                        "price": 85.00,
+                        "duration": 60,
+                        "description": "Subtle everyday makeup",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Glam Look",
+                        "price": 120.00,
+                        "duration": 90,
+                        "description": "Dramatic evening makeup",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item2": {
+                "name": "Bridal Makeup",
+                "description": "Wedding day makeup",
+                "price": 150.00,
+                "imageUrl": "https://example.com/images/bridal-makeup.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 90,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Bride",
+                        "price": 150.00,
+                        "duration": 90,
+                        "description": "Bridal makeup application",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Bridal Party",
+                        "price": 85.00,
+                        "duration": 60,
+                        "description": "Bridesmaid makeup",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item3": {
+                "name": "Eyebrow Shaping",
+                "description": "Professional brow grooming",
+                "price": 25.00,
+                "imageUrl": "https://example.com/images/brows.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 30,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Waxing",
+                        "price": 25.00,
+                        "duration": 30,
+                        "description": "Brow wax and shape",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Threading",
+                        "price": 30.00,
+                        "duration": 30,
+                        "description": "Precise thread shaping",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item4": {
+                "name": "Lash Services",
+                "description": "Professional lash enhancement",
+                "price": 150.00,
+                "imageUrl": "https://example.com/images/lashes.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 120,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Classic Extensions",
+                        "price": 150.00,
+                        "duration": 120,
+                        "description": "Individual lash extensions",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Volume Extensions",
+                        "price": 200.00,
+                        "duration": 150,
+                        "description": "Full volume lash set",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            },
+            "item5": {
+                "name": "Makeup Lesson",
+                "description": "Personal makeup tutorial",
+                "price": 100.00,
+                "imageUrl": "https://example.com/images/lesson.jpg",
+                "published": true,
+                "isAvailable": true,
+                "duration": 90,
+                "variationsEnabled": true,
+                "variations": [
+                    {
+                        "name": "Basic Techniques",
+                        "price": 100.00,
+                        "duration": 90,
+                        "description": "Everyday makeup skills",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    },
+                    {
+                        "name": "Advanced Techniques",
+                        "price": 150.00,
+                        "duration": 120,
+                        "description": "Professional makeup skills",
+                        "isEnabled": true,
+                        "offerPercentage": 0
+                    }
+                ]
+            }
+        }
     }
 ]
