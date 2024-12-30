@@ -3,6 +3,7 @@
         "id": "1",
         "name": "Salons and Barbers",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_salon.json",
         "assetName": "professional",
         "assetType": "staff"
     },
@@ -10,6 +11,7 @@
         "id": "2",
         "name": "Massage & Spa",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_spa.json",
         "assetName": "professional",
         "assetType": "staff"
     },
@@ -17,6 +19,7 @@
         "id": "3",
         "name": "Playgrounds",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_playground.json",
         "assetName": "playground",
         "assetType": "thing"
     },
@@ -24,6 +27,7 @@
         "id": "4",
         "name": "Conference Rooms",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_conference.json",
         "assetName": "room",
         "assetType": "thing"
     },
@@ -31,6 +35,7 @@
         "id": "5",
         "name": "Venues",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_venue.json",
         "assetName": "venue",
         "assetType": "thing"
     },
@@ -38,6 +43,7 @@
         "id": "6",
         "name": "Automotive Services",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_automotive.json",
         "assetName": "service",
         "assetType": "staff"
     },
@@ -45,6 +51,7 @@
         "id": "7",
         "name": "Car Rentals",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_car.json",
         "assetName": "car",
          "assetType": "thing"
     },
@@ -52,6 +59,7 @@
         "id": "8",
         "name": "Yacht Rentals",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_yacht.json",
         "assetName": "yacht",
          "assetType": "thing"
     },
@@ -59,6 +67,7 @@
         "id": "9",
         "name": "Home Services",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_home.json",
         "assetName": "professional",
          "assetType": "staff"
     },
@@ -66,6 +75,7 @@
         "id": "10",
         "name": "Private Tours",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_tour.json",
         "assetName": "tour",
         "assetType": "thing"
     },
@@ -73,6 +83,7 @@
         "id": "11",
         "name": "Training & Development",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_training.json",
         "assetName": "professional",
          "assetType": "staff"
 
@@ -81,6 +92,7 @@
         "id": "12",
         "name": "Others",
         "iconUrl": "https://www.bappnow.com/api/channel-icons/linkedin.svg",
+        "dummyDataUrl": "https://www.bappnow.com/api/dummy_catalogue_custom.json",
         "assetName": "custom",
         "assetType": "custom"
     }
